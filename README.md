@@ -27,6 +27,10 @@
   can then be used in AR
 
 
+### Side notes
+- SAM 3D cannot control its generation 
+- Have hunyuan 3D where it generates what is provided 
+  with more control
 
 
 ### Extra features
