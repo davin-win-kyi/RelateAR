@@ -36,4 +36,42 @@
 ### Extra features
 
 
+### Required imports
+- openai
+- python-dotenv
+- requests 
+- beatifulsoup4
+- tldextract
+- selenium
+- pillow 
+
+set -e
+
+sudo apt update
+
+sudo apt install -y wget curl ca-certificates
+
+sudo apt install -y \
+  fonts-liberation \
+  libasound2t64 \
+  libatk-bridge2.0-0 \
+  libgbm1 \
+  libgtk-3-0 \
+  libnss3 \
+  libxss1 \
+  libxtst6 \
+  libu2f-udev \
+  libdrm2 \
+  libxdamage1 \
+  libxrandr2 \
+  libappindicator3-1
+
+wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo apt install -y ./google-chrome-stable_current_amd64.deb 
+
+rm -f /tmp/google-chrome-stable_current_amd64.deb
+
+google-chrome --version
+
 
